@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="405px"
+            android:background="#0024A7"
+            android:soundEffectsEnabled="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/imageFilterView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250px"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30px"
+                    android:textAlignment="center"
+                    app:srcCompat="@drawable/logo" />
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/imageFilterView3"
+                    android:layout_width="210dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20px"
+                    android:foregroundGravity="center"
+                    app:srcCompat="@drawable/name" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textField1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80px"
+                    android:layout_marginTop="50px"
+                    android:layout_marginRight="80px"
+                    android:layout_marginBottom="0px"
+                    android:hint="Usuario"
+                    app:boxCornerRadiusBottomEnd="50px"
+                    app:boxCornerRadiusBottomStart="50px"
+                    app:boxCornerRadiusTopEnd="50px"
+                    app:boxCornerRadiusTopStart="50px"
+                    app:endIconMode="clear_text"
+                    app:hintTextColor="#151515">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#332F2F"
+                        android:textColor="#0E0E0E"
+                        android:textColorHint="#070707"
+                        android:textColorLink="#0C0C0C" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80px"
+                    android:layout_marginTop="50px"
+                    android:layout_marginRight="80px"
+                    android:layout_marginBottom="100px"
+                    android:hint="Password"
+                    app:boxCornerRadiusBottomEnd="50px"
+                    app:boxCornerRadiusBottomStart="50px"
+                    app:boxCornerRadiusTopEnd="50px"
+                    app:boxCornerRadiusTopStart="50px"
+                    app:endIconMode="password_toggle"
+                    app:helperTextTextColor="#171717"
+                    app:hintTextColor="#151515">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#575454"
+                        android:inputType="textPassword"
+                        android:textColor="#070707"
+                        android:textColorLink="#292828" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFDFD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnIngreso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="100px"
+                    android:backgroundTint="#086ce0"
+                    android:fontFamily="@font/titan_one"
+                    android:paddingTop="25px"
+                    android:paddingBottom="25px"
+                    android:text="INGRESAR"
+                    android:textColor="#FAF8F8"
+                    android:textSize="50px" />
+
+                <Button
+                    android:id="@+id/btnRestaurar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginTop="25px"
+                    android:layout_marginRight="100px"
+                    android:backgroundTint="#8c8e8f"
+                    android:fontFamily="@font/titan_one"
+                    android:paddingTop="25px"
+                    android:paddingBottom="25px"
+                    android:text="RESTAURAR"
+                    android:textColor="#FFFFFF"
+                    android:textSize="45px" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="369dp"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:orientation="vertical" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
