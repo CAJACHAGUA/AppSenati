@@ -2,7 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="MainPanel">
+        <State />
+      </entry>
+      <entry key="PanelPrincipalActivity">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="mi_cuenta">
         <State />
       </entry>
     </value>

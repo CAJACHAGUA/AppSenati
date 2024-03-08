@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".PanelPrincipalActivity">
+    tools:context=".MainPanel">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,13 +76,12 @@
                     android:paddingRight="75px">
 
                     <ImageButton
-                        android:id="@+id/btnPerfil"
+                        android:id="@+id/imageButton6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:backgroundTint="#001FCC"
-                        app:srcCompat="@drawable/logo"
-                        tools:srcCompat="@drawable/usuario" />
+                        android:onClick="cuenta"
+                        app:srcCompat="@drawable/usuario" />
 
                     <ImageButton
                         android:id="@+id/imageButton2"
