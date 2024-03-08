@@ -80,6 +80,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="#2962FF"
                         android:onClick="cuenta"
                         app:srcCompat="@drawable/usuario" />
 
